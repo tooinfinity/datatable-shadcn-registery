@@ -1,0 +1,97 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "datatable",
+  "homepage": "http://localhost:3000",
+  "items": [
+    {
+      "name": "complex-component",
+      "type": "registry:component",
+      "title": "Complex Component",
+      "description": "A complex component showing hooks, libs and components.",
+      "registryDependencies": ["card"],
+      "files": [
+        {
+          "path": "registry/datatable/blocks/complex-component/page.tsx",
+          "type": "registry:page",
+          "target": "app/pokemon/page.tsx"
+        },
+        {
+          "path": "registry/datatable/blocks/complex-component/components/pokemon-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/complex-component/components/pokemon-image.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/complex-component/lib/pokemon.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/datatable/blocks/complex-component/hooks/use-pokemon.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "datatable",
+      "type": "registry:component",
+      "title": "DataTable",
+      "description": "A data table component.",
+      "registryDependencies": [
+        "table",
+        "button",
+        "dropdown-menu",
+        "input",
+        "checkbox",
+        "select",
+        "badge",
+        "command",
+        "popover",
+        "separator"
+      ],
+      "dependencies": [
+        "@tanstack/react-table", "lucide-react", "@inertiajs/react"
+      ],
+      "files": [
+        {
+          "path": "registry/datatable/blocks/datatable/datatable.tsx",
+          "type": "registry:page",
+          "target": "datatable.tsx"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-columns.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-toolbar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-pagination.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-view-options.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-row-actions.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-faceted-filter.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/hooks/use-datatable.ts",
+          "type": "registry:hook"
+        }
+      ]
+    }
+  ]
+}

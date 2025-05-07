@@ -1,0 +1,11 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "datatable",
+  "type": "registry:component",
+  "title": "DataTable",
+  "description": "A data table component.",
+  "registryDependencies": [
+    "card"
+  ],
+  "files": []
+}
