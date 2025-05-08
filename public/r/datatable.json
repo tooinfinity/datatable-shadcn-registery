@@ -4,8 +4,73 @@
   "type": "registry:component",
   "title": "DataTable",
   "description": "A data table component.",
-  "registryDependencies": [
-    "card"
+  "dependencies": [
+    "@tanstack/react-table",
+    "lucide-react",
+    "@inertiajs/react"
   ],
-  "files": []
+  "registryDependencies": [
+    "table",
+    "button",
+    "dropdown-menu",
+    "input",
+    "checkbox",
+    "select",
+    "badge",
+    "command",
+    "popover",
+    "separator"
+  ],
+  "files": [
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-headers.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-columns.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-toolbars.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-paginations.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-view-options.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-row-actions.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-faceted-filters.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/components/datatable-skeleton.tsx",
+      "content": "",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/datatable/blocks/datatable/hooks/use-datatable.ts",
+      "content": "",
+      "type": "registry:hook"
+    }
+  ]
 }

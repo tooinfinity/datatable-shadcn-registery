@@ -1,6 +1,5 @@
 import * as React from "react"
 import { OpenInV0Button } from "@/components/open-in-v0-button"
-import PokemonPage from "@/registry/datatable/blocks/complex-component/page"
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
 
@@ -22,7 +21,9 @@ export default function Home() {
             <OpenInV0Button name="complex-component" className="w-fit" />
           </div>
           <div className="flex items-center justify-center min-h-[400px] relative">
-            <PokemonPage />
+            
+
+            
           </div>
         </div>
       </main>

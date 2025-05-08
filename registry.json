@@ -4,36 +4,6 @@
   "homepage": "http://localhost:3000",
   "items": [
     {
-      "name": "complex-component",
-      "type": "registry:component",
-      "title": "Complex Component",
-      "description": "A complex component showing hooks, libs and components.",
-      "registryDependencies": ["card"],
-      "files": [
-        {
-          "path": "registry/datatable/blocks/complex-component/page.tsx",
-          "type": "registry:page",
-          "target": "app/pokemon/page.tsx"
-        },
-        {
-          "path": "registry/datatable/blocks/complex-component/components/pokemon-card.tsx",
-          "type": "registry:component"
-        },
-        {
-          "path": "registry/datatable/blocks/complex-component/components/pokemon-image.tsx",
-          "type": "registry:component"
-        },
-        {
-          "path": "registry/datatable/blocks/complex-component/lib/pokemon.ts",
-          "type": "registry:lib"
-        },
-        {
-          "path": "registry/datatable/blocks/complex-component/hooks/use-pokemon.ts",
-          "type": "registry:hook"
-        }
-      ]
-    },
-    {
       "name": "datatable",
       "type": "registry:component",
       "title": "DataTable",
@@ -55,12 +25,11 @@
       ],
       "files": [
         {
-          "path": "registry/datatable/blocks/datatable/datatable.tsx",
-          "type": "registry:page",
-          "target": "datatable.tsx"
+          "path": "registry/datatable/blocks/datatable/components/datatable.tsx",
+          "type": "registry:component"
         },
         {
-          "path": "registry/datatable/blocks/datatable/components/datatable-header.tsx",
+          "path": "registry/datatable/blocks/datatable/components/datatable-headers.tsx",
           "type": "registry:component"
         },
         {
@@ -68,11 +37,11 @@
           "type": "registry:component"
         },
         {
-          "path": "registry/datatable/blocks/datatable/components/datatable-toolbar.tsx",
+          "path": "registry/datatable/blocks/datatable/components/datatable-toolbars.tsx",
           "type": "registry:component"
         },
         {
-          "path": "registry/datatable/blocks/datatable/components/datatable-pagination.tsx",
+          "path": "registry/datatable/blocks/datatable/components/datatable-paginations.tsx",
           "type": "registry:component"
         },
         {
@@ -84,7 +53,11 @@
           "type": "registry:component"
         },
         {
-          "path": "registry/datatable/blocks/datatable/components/datatable-faceted-filter.tsx",
+          "path": "registry/datatable/blocks/datatable/components/datatable-faceted-filters.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/datatable/blocks/datatable/components/datatable-skeleton.tsx",
           "type": "registry:component"
         },
         {
